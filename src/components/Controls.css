@@ -1,0 +1,40 @@
+#controls{
+    height: 37%;
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.inner_circle{
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+    background-color: #a4a6a7;
+}
+
+#controls span{
+    position: absolute;
+    color: #7e8081;
+}
+.left{
+    left: 15px;
+}
+.right{
+    right: 15px;
+}
+.bottom{
+    bottom: 15px;
+}
+.menu{
+    top: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fa-solid{
+    font-size: 22px;
+}
